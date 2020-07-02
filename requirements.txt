@@ -1,6 +1,5 @@
 numpy==1.18.1
 pandas==1.0.3
-pickle==4.0
 scikit-learn==0.23.1
 streamlit==0.61.0
 xgboost==1.1.0
