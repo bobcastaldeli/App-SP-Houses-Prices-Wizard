@@ -4,10 +4,8 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 import pickle
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import PowerTransformer, MinMaxScaler
-from sklearn.model_selection import train_test_split
-from xgboost.sklearn import XGBRegressor
+from sklearn.ensemble import GradientBoostingRegressor
+from catboost import CatBoostRegressor
 
 def data_prep(dataset):
     
