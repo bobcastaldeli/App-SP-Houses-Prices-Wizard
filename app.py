@@ -64,8 +64,8 @@ if add_selectbox == 'Alugar':
 		Swimming_Pool = 'no'
 	
 	Parking = st.selectbox('Vagas no Estacionamento', [0,1,2,3,4,5,6,7,8,9])
-	Condo = st.number_input('Taxa de Condomínio', min_value=1, max_value=9500)
-	Price = st.number_input('Valor que está disposto a pagar', min_value=480, max_value=50000)
+	Condo = st.slider('Taxa de Condomínio', min_value=0, max_value=10000)
+	Price = st.slider('Valor que está disposto a pagar', min_value=500, max_value=50000)
 
 	data ={'Condo':Condo,
 	   	   'Size':Size, 
@@ -115,8 +115,8 @@ if add_selectbox == 'Comprar':
 		Swimming_Pool = 'no'
 	
 	Parking = st.selectbox('Vagas no Estacionamento', [0,1,2,3,4,5,6,7,8,9])
-	Condo = st.number_input('Taxa de Condomínio', min_value=1, max_value=9500)
-	Price = st.number_input('Valor que está disposto a pagar', min_value=42000, max_value=10000000)
+	Condo = st.slider('Taxa de Condomínio', min_value=0, max_value=10000)
+	Price = st.slider('Valor que está disposto a pagar', min_value=45000, max_value=10000000)
 
 	data ={'Condo':Condo,
 	   	   'Size':Size, 
